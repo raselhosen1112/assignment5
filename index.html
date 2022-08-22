@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">Hungry Monster</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Recips</a>
+            <a class="nav-item nav-link" href="#">Blog</a>
+           
+          </div>
+        </div>
+      </nav>
+   
+    <div id="foodDetails">
+        
+    </div>
+   
+    <div class="search">
+        <!-- <form style="margin:auto;max-width:400px"> -->
+            <input id="search" type="text" placeholder="Search.." name="search" id="box">
+            <button  onclick="searchMeal()" type="submit"><i class="fa fa-search"></i></button>
+          <!-- </form> -->
+          
+    </div>
+    <div class="foundNot"> 
+        <h2 id="notFound"> </h2>
+    </div>
+    
+    <ul id="meals">
+
+    </ul>
+    
+    <script src="myapp.js"></script> 
+</body>
+</html>

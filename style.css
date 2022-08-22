@@ -1,0 +1,49 @@
+.meal img{
+    width: 200px;
+}
+#meals{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+.meal{
+    background-color: rgb(253, 253, 253);
+    margin: 10px;
+    text-align: center;
+}
+
+
+  
+  .search{
+    margin: auto;
+   max-width: 250px;
+   margin-top: 50px;
+  
+  }
+  .search button{
+    background-color: #2196F3;
+  width: 50px;
+
+  }
+  .food img{
+    width: 200px;
+  }
+  .food{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .foundNot{
+    text-align: center;
+    color: brown;
+  }
+  #notFound{
+    margin-top: 50px;
+  }
+ .card{
+  width: 70%;
+ text-align: center;
+ padding-left: 5px;
+ padding-top: 5px;
+ }
+
+ 
